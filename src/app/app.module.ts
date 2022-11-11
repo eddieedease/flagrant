@@ -17,6 +17,11 @@ const appRoutes: Routes = [
     redirectTo: 'site',
     pathMatch: 'full'
   },
+  {
+    path: 'admin',
+    component: AdminComponent
+  },
+  
   { path: '**', component: SiteComponent }
 ];
 
